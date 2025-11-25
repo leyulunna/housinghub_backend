@@ -4,11 +4,19 @@ This repository is my **personal showcase copy** of the original HousingHub proj
 
 👉 Original team repo: https://github.com/kaylals/HousingHub 
 
-In this personal repo, I focus on the **backend machine learning APIs** that power the housing price forecasting features. --- ## My Role In the original team project, my main responsibility was to: - Take existing machine learning models (e.g., N-Beats for short-term forecasts and XGBoost for long-term forecasts), - Wrap them into **Flask-based HTTP APIs**, - Handle data loading and preprocessing inside the API, - Define the request/response schema so the frontend can consume model predictions, - Expose endpoints that return prediction plots and values. 
+In this personal repo, I focus on the **backend machine learning APIs** that power the housing price forecasting features. 
+
+--- ## My Role In the original team project, my main responsibility was to: 
+
+- Take existing machine learning models (e.g., N-Beats for short-term forecasts and XGBoost for long-term forecasts), 
+- Wrap them into **Flask-based HTTP APIs**,
+- Handle data loading and preprocessing inside the API,
+- Define the request/response schema so the frontend can consume model predictions, 
+- Expose endpoints that return prediction plots and values. 
 
 In short: **I turned the ML model outputs into a reusable backend API layer** that other parts of the system (frontend / dashboard) can call. 
 
---- ## Running the Machine Learning API Locally ---
+--- ## Running the Machine Learning API Locally
 
 ### 1. Clone this repository
 ```bash
