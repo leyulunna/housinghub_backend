@@ -14,7 +14,6 @@ def predict():
     data = request.get_json()
     range_days = data.get('range')
 
-    # 根据 range 天数选择合适的模型 API 路由
     if range_days <= 60:
         return short_term_api()
     else:
